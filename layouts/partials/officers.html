@@ -1,0 +1,56 @@
+
+<head>
+  <style>
+    .team-card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+    
+    .team-container {
+      padding: 0 16px;
+    }
+    
+    .team-container::after, .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .team-title {
+      font-size: 14px;
+      color: grey;
+    }
+    
+    .team-row {
+      float: left;
+      width: 100%;
+      margin-bottom: 16px;
+      padding: 0 8px;
+    }
+    
+    .team-desc {
+      font-size: 12px;
+      width: 500px;
+    }
+    
+    .announcement-card {
+      font-size: 15px;
+    }
+  </style>
+</head>
+
+<table style="width:115%;">
+  <div class="team-row" >
+    <tr class="team-card">
+      <td width=175px>
+        <img src="{{ .officerPhoto}}" alt="{{ .officerName }}" style="width:100%;border-radius: 50%;">
+      </td>
+      <td>
+        <div class="team-container">
+          <h4> {{ .officerName }}  </h4>
+          <p class="team-title"> {{ .officerRole }} </p>
+          <p class="team-desc"> {{ .officerDetails }} </p>
+        </div>
+      </td>
+    </tr>
+  </div>
+  </table>

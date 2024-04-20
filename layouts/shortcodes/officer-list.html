@@ -1,0 +1,79 @@
+
+{{ if .IsNamedParams }}
+<table id="officer-table" class="table table-bordered table-hover">
+    <head>
+        <style>
+          html {
+            box-sizing: border-box;
+          }
+          
+          *, *:before, *:after {
+            box-sizing: inherit;
+          }
+          
+          .extr9-column {
+            float: left;
+            width: 25%;
+            margin-bottom: 16px;
+            padding: 0 8px;
+          }
+          
+          @media screen and (max-width: 650px) {
+            .extr9-column {
+              width: 100%;
+              display: block;
+            }
+          }
+          
+          .extr9-card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          }
+          
+          .extr9-container {
+            padding: 0 16px;
+          }
+          
+          .extr9-container::after, .row::after {
+            content: "";
+            clear: both;
+            display: table;
+          }
+          
+          .extr9-title {
+            color: grey;
+          }
+          
+          .extr9-button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+          }
+          
+          .extr9-button:hover {
+            background-color: #555;
+          }
+          
+          
+          </style>
+        </head>
+        <body>
+        
+        {{ $filename := .Get "datafileVar" }}
+        {{ $data := index .Site.Data $filename $.Params.data }}
+          
+        {{ range $data }}
+            {{ partial "officers" . }}
+        {{ end }}
+                  
+    </body>    
+
+
+
+<table>
+{{- end -}}

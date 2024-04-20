@@ -1,4 +1,5 @@
 .DS_Store
+/public/
 
 # Generated files by hugo
 /resources/_gen/

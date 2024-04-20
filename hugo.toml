@@ -1,0 +1,160 @@
+baseurl = "http://localhost:1313/"
+metaDataFormat = "yaml"
+title = "Monta Vista DataScience Club"
+theme = "blist"
+
+DefaultContentLanguage = "en"
+DefaultContentLanguageInSubdir = true
+[languages]
+  [languages.en]
+    contentDir = "content/en" #English
+    weight = 0
+    languageName = "English"
+    [languages.en.params]
+      introTitle = "Welcome to MV Datascience"
+      introPhoto = "/DataScience.jpeg"
+      logo = "/DataScienceLogo.jpeg"
+    [[languages.en.menu.main]]
+        name = "About"
+        url = "page/about/"
+        weight = 1
+
+
+    [[languages.en.menu.main]]
+        name = "Announcements"
+        url = "page/announcements/"
+        weight = 2
+
+    [[languages.en.menu.main]]
+        name = "Articles"
+        url = "articles"
+        weight = 3
+
+    [[languages.en.menu.main]]
+        name = "Lecture Slides"
+        url = "/en/lecture-slides/"
+        weight = 4
+
+    [[languages.en.menu.main]]
+        name = "Team"
+        url = "/en/team/"
+        weight = 5
+
+  
+        
+
+[params]
+  # Enable the darkmode toggle in header
+  darkModeToggle = true
+  
+  # Enable search in header
+  enableSearch = true
+
+  # Option to customize the search parameters of a page
+  # Below are the supported options; Note that including entire content
+  # may slowdown the loading of search results
+  # Title of page is included by default
+  searchKeys = [
+    "tags",
+    "date",
+    "categories",
+    "summary",
+    "content",
+    "link",
+    "author"
+  ]
+
+
+  # Color for the intro details and social links block, not applicable for dark mode
+  # Supported values: Any color from TailwindCSS default colors
+  # Reference: https://tailwindcss.com/docs/customizing-colors
+  ascentColor = "bg-blue-100"
+
+  # The page bundle that is shown on the front page
+  frontBundle = "blog"
+
+  # Used to hide the post metadata such as posted date, reading time and word count
+  # Can be used at site level or page level
+  hideMeta = false
+
+  # To hide "Other languages" option if the post is available in multiple languages
+  # Can be used at site level or page level
+  hideOtherLanguages = false
+
+  # Add support for Table of contents
+  # Can be added to a page level also in markdown frontmatter
+  toc = true
+
+  # Hides the thumbnail in post view
+  # Thumbnails in home and blog pages will still be shown
+  # This setting can also be in page's markdown file
+  hidePageThumbnail = false
+
+# Comments system
+[params.comments]
+  # Supports disqus, giscus and utterances
+  # Check hugo docs for setting up disqus
+  system = "giscus"
+
+  # Options for giscus, exclude hyphens
+  repo = ""
+  repoid = ""
+  category = ""
+  categoryid = ""
+  mapping = ""
+  strict = ""
+  reactionsenabled = ""
+  emitmetadata = ""
+  inputposition = ""
+  theme = ""
+
+  # Options for utterances, exclude hyphens
+  # repo = ""
+  # issueterm = ""
+  # theme = ""
+
+[params.homepage.social]
+  # Global params common for both languages
+  title = "Join Us"
+  description = "Fill out the google form. If you don't hear from us, contact: "
+
+  [[params.homepage.social.icons]]
+    website = "twitter"
+    url = "https://twitter.com/"
+  [[params.homepage.social.icons]]
+    website = "linkedin"
+    url = "https://linkedin.com/in/"
+  [[params.homepage.social.icons]]
+    website = "mastodon"
+    url = "https://joinmastodon.org"
+  [[params.homepage.social.icons]]
+    website = "youtube"
+    url = "https://youtube.com"
+  [[params.homepage.social.icons]]
+    website = "instagram"
+    url = "https://instagram.com"
+  [[params.homepage.social.icons]]
+    website = "facebook"
+    url = "https://facebook.com"
+  [[params.homepage.social.icons]]
+    website = "behance"
+    url = "https://behance.net"
+
+[[menu.main]]
+  name = "About"
+  url = "/about"
+
+[build]
+  writeStats = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# syntax highlight settings
+[markup]
+  [markup.highlight]
+    style = "dracula"
+  [markup.goldmark.renderer]
+    # Enable to include inline HTML
+    unsafe = true
+

@@ -1,0 +1,52 @@
+{
+   "officers":[
+      {
+         "officerName":"Andrew Zhou",
+         "officerRole":"Co-President",
+         "officerPhoto":"/img/officers/BlankImage.jpg",
+         "officerDetails":"Pending Bio"
+      },
+      {
+         "officerName":"Shreyassriram Garimella",
+         "officerRole":"Co-President",
+         "officerPhoto":"/img/officers/BlankImage.jpg",
+         "officerDetails":"Pending Bio"
+      },
+      {
+         "officerName":"Aryan Singhal",
+         "officerRole":"Secretary/Director of Outreach",
+         "officerPhoto":"/img/officers/BlankImage.jpg",
+         "officerDetails":"Pending Bio"
+      },
+      {
+         "officerName":"Tashvi Bansal",
+         "officerRole":"Event Manager",
+         "officerPhoto":"/img/officers/BlankImage.jpg",
+         "officerDetails":"Pending Bio"
+      },
+      {
+         "officerName":"Ronith Vinod",
+         "officerRole":"Web Communication Manager",
+         "officerPhoto":"/img/officers/BlankImage.jpg",
+         "officerDetails":"Pending Bio"
+      },
+      {
+         "officerName":"Trishia Khandelwal",
+         "officerRole":"Directors of Curriculum",
+         "officerPhoto":"/img/officers/BlankImage.jpg",
+         "officerDetails":"Pending Bio"
+      },
+      {
+         "officerName":"Raymond Feng",
+         "officerRole":"Directors of Curriculum",
+         "officerPhoto":"/img/officers/BlankImage.jpg",
+         "officerDetails":"Pending Bio"
+      },
+      {
+         "officerName":"Shrey Vishen",
+         "officerRole":"Directors of Curriculum",
+         "officerPhoto":"/img/officers/BlankImage.jpg",
+         "officerDetails":"Pending Bio"
+      }
+   ]
+}
