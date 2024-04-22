@@ -13,7 +13,7 @@ DefaultContentLanguageInSubdir = true
     [languages.en.params]
       introTitle = "Welcome to MV Datascience"
       introPhoto = "/DataScience.jpg"
-      logo = "https://github.com/ronithcv/mvdatascience-source/DataScienceLogo.jpg"
+      logo = "https://ronithcv.github.io/mvdatascience-source/DataScienceLogo.jpg"
     [[languages.en.menu.main]]
         name = "About"
         url = "page/about/"
@@ -32,12 +32,12 @@ DefaultContentLanguageInSubdir = true
 
     [[languages.en.menu.main]]
         name = "Lecture Slides"
-        url = "/en/lecture-slides/"
+        url = "page/lecture-slides/"
         weight = 4
 
     [[languages.en.menu.main]]
         name = "Team"
-        url = "/en/team/"
+        url = "page/team/"
         weight = 5
 
   
