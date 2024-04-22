@@ -1,7 +1,7 @@
 ---
 author: Ronith Vinod Chikkaballapur
 title: About Us
-date: 2021-07-15
+date: 2024-04-15
 description:
 keywords: ["about-us", "about-hugo", "contact"]
 type: about
