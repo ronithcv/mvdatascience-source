@@ -1,0 +1,153 @@
+<!--<section class="contfull {{ .Site.Params.ascentColor | default "bg-pink-100" }} dark:bg-gray-900">
+  <div class="contfull place-items-center">
+    <--S
+  <div class="container max-w-screen-lg mx-auto px-6 py-12 grid md:grid-cols-2 gap-4 lg:gap-16 items-center">
+
+    <div>
+      <h1 class="text-4xl font-bold mb-4">{{ .Site.Params.introTitle | safeHTML}}</h1>
+      <p class="font-light text-lg">{{ .Site.Params.introSubtitle | safeHTML}}</p>
+    </div>
+  --S>
+    <img class="contfull img-wd-full place-items-center" src="{{ .Site.Params.introPhoto }}" alt="{{ .Site.Title }}" />
+    <div class="w3-display-middle w3-margin-top w3-center">
+      <h1 class="w3-xxlarge w3-text-white"> 
+        <span class="w3-hide-small w3-text-light-grey">BR Architects</span>
+      </h1>
+    </div>      
+
+  </div>
+</section>-->
+<!--
+<section class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="/DataScience.jpeg" alt="/DataScience.jpeg" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"> <span class="w3-hide-small w3-text-light-grey">BR Architects</span></h1>
+  </div>
+</section>-->
+<!--
+<section class="contfull {{ .Site.Params.ascentColor | default "bg-pink-100" }} dark:bg-gray-900">
+  <div class="exw3-container">
+    <div>
+    <img src="/DataScience.jpeg" alt="Snow" style="width:100%;">
+    </div>
+    <div class="exw3-bottom-left">Bottom Left</div>
+    <div class="exw3-top-left">Top Left</div>
+    <div class="exw3-top-right">Top Right</div>
+    <div class="exw3-bottom-right">Bottom Right</div>
+    <div class="exw3-centered">Centered</div>
+  </div>
+</section>
+-->
+
+
+<head>
+    <style>
+        .gfg {
+            margin: 0%;
+            position: relative;
+        }
+ 
+        /*This CSS code is defining the
+        styles for a container that holds text*/
+        .text-container {
+            position: absolute;
+            color: rgb(0, 0, 0);
+            left: 40rem;
+            top: 7rem;
+            background-color: rgb(0, 0, 0 , 0.8);*/
+           /* padding: 0 1rem;*/
+        }
+
+  /* ===== Parallax Styling ==================================================
+   ========================================================================== 
+       body, html {
+      height: 100%;
+      margin: 0;
+    }
+  */
+
+
+    .bgimg-1, .bgimg-2 {
+      position: relative;
+      opacity: 0.0001;
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .bgimg-1 {
+        background-image: url("../img/bg.jpg");
+        height: 100%;
+    }
+
+    .bgimg-2 {
+      background-image: url("../img/bg2.jpg");
+      height: 30%;
+    }
+
+    .caption {
+      position: absolute;
+      left: 0;
+      top: 30%;
+      width: 100%;
+      text-align: center;
+      color: #0f0;
+      margin-top: 10px;
+      background-color = none
+    }
+
+    .caption span.border {
+      background-color: none;
+      color: #eee;
+
+      -webkit-transition: all .25s;
+        transition: all .25s;
+        width: 100%;
+
+      font-size: 6.3vw;
+      font-family: 'Helvetica Neue', sans-serif;
+      font-weight: bold;
+      letter-spacing: -1px;
+      line-height: 0px;
+      text-align: center;
+      border-width: 0px;
+    }
+
+    .caption span.border:hover {
+        letter-spacing: .05em;
+
+    }
+
+    /* Turn off parallax scrolling for tablets and phones */
+    @media only screen and (max-device-width: 1024px) {
+      .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+      }
+    }
+    </style>
+</head>
+ 
+<body>
+    <!--Main container that holds both 
+    image and the text we want to place over the image-->
+    <div class="gfg">
+        <img src=
+        "/DataScience.jpeg">
+        <!--
+
+        <div class="text-container">
+            <h1>Welcome to MV Datascience</h1>
+            <p>Welcome to MV Datascience</p>
+            <font size="+9">This is bigger text.</font>
+
+
+        </div>
+        -->
+        <div class="caption">
+          <span class="border">Welcome to MV DataScience!</span>
+        </div>
+    </div>
+</body>
+
+
