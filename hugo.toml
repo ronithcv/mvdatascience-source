@@ -1,4 +1,4 @@
-baseurl = "http://localhost:1313/"
+baseurl = "https://github.com/ronithcv/mvdatascience-source/"
 metaDataFormat = "yaml"
 title = "Monta Vista DataScience Club"
 theme = "blist"
