@@ -5,6 +5,7 @@ description:
 keywords: ["announcements"]
 type: Announcements
 displayShort: true
+date: 2024-04-18
 ---
 
 Welcome to the Monta Vista Datascience club!
