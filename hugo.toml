@@ -36,12 +36,7 @@ DefaultContentLanguageInSubdir = true
         url = "page/lecture-slides/"
         weight = 4
 
-    [[languages.en.menu.main]]
-        name = "Team"
-        url = "page/team/"
-        weight = 5
 
-  
         
 
 [params]
