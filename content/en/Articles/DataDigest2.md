@@ -1,7 +1,7 @@
 ---
 author: ""
 title: "Data Digest 2"
-date: 2023-11-13
+date: 2024-03-03
 description: "Issue 2: OpenAI’s Sora: A Text-to-Video Model"
 tags: ["shortcodes", "privacy"]
 thumbnail: "https://github.com/ronithcv/mvdatascience-source/assets/39817950/b4ce3635-f2d1-4e7b-908c-8051e0b6370b"
