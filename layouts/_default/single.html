@@ -94,7 +94,7 @@
       image and the text we want to place over the image-->
       <div class="gfg">
           <img src=
-          "/ShortenedPicture.jpg">
+          "{{ .Site.BaseURL }}{{ .Site.Params.shortPhoto }}" alt="{{ .Site.Title }}">
           <!--
 
           <div class="text-container">
