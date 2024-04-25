@@ -21,7 +21,7 @@ little by little, and then we use a diffusion model to reverse this
 process, decoding the noise little by little, until we have the final
 image.
 
-![Placeholder](/mvdatascience-source/static/Img1.png)
+![Placeholder](/Img1.png)
 
 Timesteps of adding noise to an image, until its pure noise. Sampled
 from the normal distribution z ~ N(0, 1).
@@ -36,7 +36,7 @@ Iterative process of denoising an image using a diffusion model
 
 
 ![Placeholder](static/Img2.png)
-![Placeholder](/mvdatascience-source/static/Img3.png)
+![Placeholder](/Img3.png)
 
 U-net architecture
 
