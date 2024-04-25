@@ -18,4 +18,4 @@ Join our [mailing list!](https://forms.gle/G9Up1n8yHvQikV917)
 
 
 ## Take Part in our Datathon!
-![Placeholder](/mvdatascience-source/Datathon.png)
+![Placeholder](/Datathon.png)
