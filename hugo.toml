@@ -1,4 +1,4 @@
-baseurl = "https://github.com/ronithcv/mvdatascience-source/"
+baseurl = "mvdatascience.org"
 metaDataFormat = "yaml"
 title = "Monta Vista DataScience Club"
 theme = "blist"
