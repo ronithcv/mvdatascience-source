@@ -1,4 +1,4 @@
-baseurl = "mvdatascience.org"
+baseurl = ""
 metaDataFormat = "yaml"
 title = "Monta Vista DataScience Club"
 theme = "blist"
@@ -12,8 +12,8 @@ DefaultContentLanguageInSubdir = true
     languageName = "English"
     [languages.en.params]
       introTitle = "Welcome to MV Datascience"
-      introPhoto = "/DataScience.jpeg"
-      shortPhoto = "/ShortenedPicture.jpg"
+      introPhoto = "mvdatascience.org/DataScience.jpeg"
+      shortPhoto = "mvdatascience.org/ShortenedPicture.jpg"
       logo = "https://ronithcv.github.io/mvdatascience-source/DataScienceLogo.jpg"
     [[languages.en.menu.main]]
         name = "About"
