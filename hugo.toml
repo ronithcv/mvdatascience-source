@@ -117,6 +117,10 @@ DefaultContentLanguageInSubdir = true
   [[params.homepage.social.icons]]
     website = "instagram"
     url = "https://instagram.com"
+  [[params.homepage.social.icons]]
+    website = "discord"
+    url = "https://discord.gg/FupMCcJ8"
+
 
 [[menu.main]]
   name = "About"
