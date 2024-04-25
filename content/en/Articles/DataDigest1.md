@@ -34,11 +34,8 @@ tell which timestep the picture is in, we utilize embeddings.
 
 Iterative process of denoising an image using a diffusion model
 
-{{< figure src="/Img2.png" title="title of image" width="400">}}
-
-<img src="/Img1.png" alt="Placeholder">
-![Placeholder](static/Img2.png)
-![Placeholder](/Img3.png)
+![Placeholder](/mvdatascience-source/Img2.png)
+![Placeholder](/mvdatascience-source/Img3.png)
 
 U-net architecture
 
