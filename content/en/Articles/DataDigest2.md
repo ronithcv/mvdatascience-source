@@ -7,7 +7,7 @@ tags: ["shortcodes", "privacy"]
 thumbnail: "https://github.com/ronithcv/mvdatascience-source/assets/39817950/b4ce3635-f2d1-4e7b-908c-8051e0b6370b"
 displayShort: false
 ---
-Overview
+### Overview
 
   You have probably heard of Sora on the news, or heard about it from somewhere.
 Basically, Sora is OpenAI’s new text to video generation model. It’s really powerful, as it can
@@ -26,7 +26,7 @@ Examples]. For example, someone might eat a cookie in the video, but the cookie 
 bite mark. Or the way the camera moves is weird or unrealistic in a real-life setting. But how
 does it even work?
 
-Technical Aspects
+### Technical Aspects
 
 To summarize, OpenAI has essentially trained a text-conditional diffusion model on
 images and videos, of diverse durations, aspect ratios and resolutions. But let’s break down the
@@ -68,7 +68,7 @@ diffusion models, and transformers. Then it was trained on “tokenized” video
 removing noise to try to match the latent space. Onto something else, what are the
 implications of letting people use Sora?
 
-Ethical Concerns
+### Ethical Concerns
 
 There are major ethical concerns with this tool becoming open to the public. Firstly, it’s
 easy to generate fake content that can harm people significantly. Secondly, it puts many jobs
