@@ -4,7 +4,7 @@ title: "Data Digest 1"
 date: 2023-11-13
 description: "Issue 1: Diffusion Models and Applications"
 tags: ["shortcodes", "privacy"]
-thumbnail: "/mvdatascience-source/DataDigest1.png"
+thumbnail: "/DataDigest1.png"
 displayShort: false
 ---
 Diffusion Models are a class of generative models that turn noise into a
