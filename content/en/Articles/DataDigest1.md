@@ -34,6 +34,8 @@ tell which timestep the picture is in, we utilize embeddings.
 
 Iterative process of denoising an image using a diffusion model
 
+{{< figure src="/Img2.png" title="title of image" width="400">}}
+
 
 ![Placeholder](static/Img2.png)
 ![Placeholder](/Img3.png)
