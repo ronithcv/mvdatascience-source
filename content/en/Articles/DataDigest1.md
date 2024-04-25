@@ -35,7 +35,7 @@ tell which timestep the picture is in, we utilize embeddings.
 Iterative process of denoising an image using a diffusion model
 
 
-![Placeholder](https://github.com/ronithcv/mvdatascience-source/blob/e56a630cdc02c20bf19d5fe752e48d89855eb873/static/Img2.png)
+![Placeholder](static/Img2.png)
 ![Placeholder](/mvdatascience-source/static/Img3.png)
 
 U-net architecture
