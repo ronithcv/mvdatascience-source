@@ -1,4 +1,4 @@
-baseurl = "mvdatascience.org"
+baseurl = ""
 metaDataFormat = "yaml"
 title = "Monta Vista DataScience Club"
 theme = "blist"
