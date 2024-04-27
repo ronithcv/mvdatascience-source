@@ -1,6 +1,6 @@
 baseurl = ""
 metaDataFormat = "yaml"
-title = "Monta Vista DataScience Club"
+title = "Monta Vista Data Science Club"
 theme = "blist"
 
 DefaultContentLanguage = "en"
