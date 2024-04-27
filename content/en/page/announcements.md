@@ -8,7 +8,7 @@ displayShort: true
 date: 2024-04-18
 ---
 
-Welcome to the Monta Vista Datascience club!
+Welcome to the Monta Vista Data Science club!
 
 We'll  be having our club meeting on every other Monday at Lunch in Room D205
 
