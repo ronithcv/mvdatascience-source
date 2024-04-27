@@ -11,7 +11,7 @@ DefaultContentLanguageInSubdir = true
     weight = 0
     languageName = "English"
     [languages.en.params]
-      introTitle = "Welcome to MV Datascience"
+      introTitle = "Welcome to MV Data Science"
       introPhoto = "DataScience.jpeg"
       shortPhoto = "ShortenedPicture.jpg"
       logo = "https://ronithcv.github.io/mvdatascience-source/DataScienceLogo.png"
