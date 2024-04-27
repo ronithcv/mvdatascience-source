@@ -8,7 +8,7 @@ type: about
 displayShort: true
 ---
 
-Welcome to the Monta Vista Datascience club!
+Welcome to the Monta Vista Data Science club!
 <p>Data Science holds immense importance in various fields due to its capacity to extract valuable insights and drive informed decision-making. Here are few reasons highlighting its significance:
 </p>
 <ol> 
