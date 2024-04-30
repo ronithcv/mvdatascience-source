@@ -17,14 +17,14 @@ Welcome to the Monta Vista Data Science club!
         <li> Helps to make decisions based on empirical evidence rather than intuition </li>
         <li> Helps identify trends, patterns, and correlations within data, aiding in more accurate and strategic decision-making </li>
      </ul>
-  <li> Innovation and Research </li>
-     <ul>
-        <li> Fuels innovations like machine learning, artificial intelligence, and the development of intelligent systems </li>
-     </ul>
-  <li> Risk Management </li>
+    <li> Risk Management </li>
      <ul>
         <li> Crucial for assessing and managing risks </li>
         <li> Predictive modeling helps in identifying potential risks, fraud detection, and optimizing risk portfolios </li>
+     </ul>
+  <li> Innovation and Research </li>
+     <ul>
+        <li> Fuels innovations like machine learning, artificial intelligence, and the development of intelligent systems </li>
      </ul>
 </ol>
 
