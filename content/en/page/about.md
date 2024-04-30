@@ -12,9 +12,13 @@ Welcome to the Monta Vista Data Science club!
 <p>Data Science holds immense importance in various fields due to its capacity to extract valuable insights and drive informed decision-making. Here are few reasons highlighting its significance:
 </p>
 - Informed Decision-Making
+
   - Helps to make decisions based on empirical evidence rather than intuition
+    
   - Helps identify trends, patterns, and correlations within data, aiding in more accurate and strategic decision-making
+    
 - Risk Management
+  
   - Crucial for assessing and managing risks
   
   - Predictive modeling helps in identifying potential risks, fraud detection, and optimizing risk portfolios
@@ -22,7 +26,7 @@ Welcome to the Monta Vista Data Science club!
 - Innovation and Research
 
   - Fuels innovations like machine learning, artificial intelligence, and the development of intelligent systems
-
+    
 
 
 
