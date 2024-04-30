@@ -16,8 +16,11 @@ Welcome to the Monta Vista Data Science club!
   - Helps identify trends, patterns, and correlations within data, aiding in more accurate and strategic decision-making
 - Risk Management
   - Crucial for assessing and managing risks
+  
   - Predictive modeling helps in identifying potential risks, fraud detection, and optimizing risk portfolios
+  
 - Innovation and Research
+
   - Fuels innovations like machine learning, artificial intelligence, and the development of intelligent systems
 
 
